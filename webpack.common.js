@@ -5,8 +5,9 @@ module.exports = {
     app: './js/app.js',
   },
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    filename: 'bundle.js',
+    path: path.resolve(__dirname, 'build'),
     clean: true,
-    filename: './js/app.js',
+    assetModuleFilename: '[path][name][ext]',
   },
 };

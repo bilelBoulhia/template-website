@@ -24,6 +24,7 @@ header{
   display: inline-flex;
   justify-content: start;
 
+  backdrop-filter: blur(4px);
   align-items: center;
   padding: 8px;
   width: 100%;

@@ -229,7 +229,7 @@ body{
 
 }
 main{
-  overflow-x: hidden;
+  overflow : clip;
   display: flex;
   flex-direction: column;
   justify-content: center;
