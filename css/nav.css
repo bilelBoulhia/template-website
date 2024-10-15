@@ -1,0 +1,52 @@
+
+a{
+  color:white;
+  font-family: Righteous,monospace;
+  font-weight: bolder;
+  cursor: default;
+  padding: 8px;
+
+  font-size: 1.25rem;
+}
+
+header ul li{
+  padding: 8px;
+  border-radius: 16px;
+}
+
+header ul li:hover{
+  transform: translateX(10%);
+  transition:  0.2s ease-in-out;
+  padding: 8px;
+  border-radius: 16px;
+}
+header{
+  display: inline-flex;
+  justify-content: start;
+
+  align-items: center;
+  padding: 8px;
+  width: 100%;
+  top: 0;
+
+  position: fixed;
+  z-index: 2;
+}
+
+.nav{
+  list-style-type: none;
+  display: inline-flex;
+  gap: 3rem;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding:0;
+}
+
+header img{
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  right: 1rem;
+
+}
+
