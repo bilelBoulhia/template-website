@@ -200,8 +200,8 @@ textarea {
 }
 
 button svg{
-  width: 2rem;
-  height: 2rem;
+  width: 1rem;
+  height: 1rem;
 }
 
 button:hover{
@@ -218,18 +218,19 @@ button{
 
   border: none;
   padding-inline: 25px;
-  font-size: 1.25rem;
+
   box-shadow: 14px 12px 12px 4px rgba(0,0,0,0.6);
 }
 
 body{
   margin: 0;
   background: #121212;
-  overflow-x: hidden;
+
+  overflow-x: clip;
 
 }
 main{
-  overflow : clip;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -237,54 +238,6 @@ main{
 }
 
 
-.hero{
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  width: 100%;
-  min-height: 100vh;
-  margin-inline: 50px;
-
-}
-.textcontainer{
-  padding: 25px;
-}
-
-.hero h1{
-  font-family: Righteous, sans-serif;
-  color: white;
-  font-size: 6rem;
-  max-width: 60rem;
-  text-align: left;
-  animation: 0.8s ease-out fromBottomToTop;
-}
-.herocontent {
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  flex-direction: column;
-}
-
-.hero .herocontent img{
-  position: absolute;
-  left: 0;
-  top: -300px;
-  width: 100%;
-  z-index: -2;
-  object-fit: contain;
-}
-
-.ctoButtons{
-  gap: 50px;
-  display: inline-flex;
-}
-
-.ctoButtons button{
-  background: var(--buttonbg);
-  font-size: 2rem;
-  font-weight: bold;
-  font-family: monospace;
-}
 
 
 
